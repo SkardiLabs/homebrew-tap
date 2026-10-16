@@ -18,19 +18,19 @@ class Skardi < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/SkardiLabs/skardi/releases/download/v0.6.0/skardi-aarch64-apple-darwin.tar.gz"
-      sha256 "1f90fefd9cdae8ebd3d026dc5f5774abf1bb4bb82e4f3ac81e5fd136a55b639b"
+      url "https://github.com/SkardiLabs/skardi/releases/download/v0.7.0/skardi-aarch64-apple-darwin.tar.gz"
+      sha256 "a6d794d60dd4b349796d67fc696b80e648606a8c27d83ee8f09ef554f06b1aa7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/SkardiLabs/skardi/releases/download/v0.6.0/skardi-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4652ce87e0adb9011a20bd8e6dccc0a9a305cdafd4f0dd4265900dfa223fa02c"
+      url "https://github.com/SkardiLabs/skardi/releases/download/v0.7.0/skardi-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9d4d66abc3135539211215b65e08fbcab77fdc615e291c80b5f397c76c5757b7"
     end
     on_arm do
-      url "https://github.com/SkardiLabs/skardi/releases/download/v0.6.0/skardi-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9d9fb3a58ee7366ef823bbb9b2351fb95f6fa48f8d487c93ecef11266da1ed6a"
+      url "https://github.com/SkardiLabs/skardi/releases/download/v0.7.0/skardi-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c2c690b0a861a29601eefacc0c4038091fbef88731db177e0566e24a95813130"
     end
   end
 
